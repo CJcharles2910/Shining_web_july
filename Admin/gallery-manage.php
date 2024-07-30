@@ -1,6 +1,12 @@
 <?php
 session_start();
 include('includes/config.php');
+
+// Login-Page---
+if (!isset($_SESSION['admin'])) {
+    header("Location: login.php");
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

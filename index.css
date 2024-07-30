@@ -218,7 +218,7 @@ body {
 }
 
 /* Chruch-Timing */
-.container {
+.container-CT {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./images/Chruch_Time_BG.png")no-repeat center fixed;
     background-size: cover;
     display: flex;

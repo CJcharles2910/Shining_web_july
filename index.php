@@ -93,7 +93,7 @@ error_reporting(0);
 
     <!-- Chruch Timing -->
 
-    <div class="container">
+    <div class="container-CT">
         <div class="content">
             <h1>Church Timing</h1>
             <div class="prayer-times">
@@ -138,7 +138,7 @@ error_reporting(0);
     <?php include_once('includes/footer.php');?>
     <!--//footer -->
 
-    <script src="header"></script>
+    <script src="header.js"></script>
 
 </body>
 
