@@ -8,27 +8,6 @@ function hideSidebar() {
     sidebar.style.display = 'none'
 }
 
-// Pop-Up
-var popup = document.getElementById("popup");
-
-var closeBtn = document.getElementById("popup-close");
-
-closeBtn.onclick = function() {
-    popup.style.animation = 'fadeOut 0.5s';
-    setTimeout(() => popup.style.display = 'none', 500);
-}
-
-window.onload = function() {
-    popup.style.display = "block";
-}
-
-window.onclick = function(event) {
-    if (event.target == popup) {
-        popup.style.animation = 'fadeOut 0.5s';
-        setTimeout(() => popup.style.display = 'none', 500);
-    }
-}
-
 // SlideShow-------------
 
 let slider = document.querySelector('.slider .list');
