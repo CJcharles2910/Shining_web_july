@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.file-upload {
+    margin-bottom: 15px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.file-name {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.choose-button,
+.remove-button,
+.update-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.remove-button,
+.update-button {
+    background-color: #4CAF50;
+}
+
+.choose-button:hover,
+.remove-button:hover,
+.update-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .input-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .file-name {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .choose-button,
+    .remove-button,
+    .update-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .choose-button:last-child,
+    .remove-button:last-child,
+    .update-button:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.Back-btn {
+    text-decoration: none;
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Back-btn:hover {
+    background-color: #d32f2f;
+}

@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+}
+
+.title{
+    margin-top: 90px;
+    background-color: rgb(8, 158, 239);
+    height: 70px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+/* Pop-Up */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    animation: fadeIn 0.5s; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.popup-content {
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 65%;
+    max-width: 1000px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    animation: slideIn 0.5s; /* Slide-in animation */
+}
+
+@keyframes slideIn {
+    from {transform: translateY(-50px); opacity: 0;}
+    to {transform: translateY(0); opacity: 1;}
+}
+
+.popup-image {
+    margin: 10px;
+    height: 450px;
+    width: 45%;
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    /* transition: transform 0.3s ease; */
+}
+
+/* .popup-image:hover {
+    transform: scale(1.05);
+} */
+
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.popup-close:hover,
+.popup-close:focus {
+    color: #bbb;
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+
+@media only screen and (max-width: 700px){
+    .popup-content {
+        flex-direction: column;
+    }
+    .popup-image {
+        width: 80%;
+        max-width: 80%;
+    }
+    .popup-close{
+        right: 45px;
+    }
+}
+
+/* SlideShow-------------- */
+.slider{
+    width: 1300px;
+    max-width: 100vw;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+
+/* text-content */
+.text-content{
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* Pastor img & Content------------- */
+.pastor-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.welcome-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Chruch-Timing */
+.container {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./images/Chruch_Time_BG.png")no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content {
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.content h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.prayer-times {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* iframe */
+.i-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video-gallery {
+    text-align: center;
+    background-color: #222;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.video-gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.video-gallery .videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-gallery .video {
+    margin: 10px;
+    max-width: 300px;
+    flex: 1 1 300px;
+    position: relative;
+}
+
+.video-gallery .video iframe {
+    width: 100%;
+    height: 200px;
+}
+
+.video-gallery .video p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    /* Pastor Img */
+    .welcome-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .welcome-section img {
+        flex: 1;
+        max-width: 400px;
+        margin-right: 20px;
+    }
+
+    .welcome-section div {
+        flex: 2;
+    }
+
+    /* I-Frame */
+    .video-gallery .videos {
+        justify-content: space-around;
+    }
+
+    .video-gallery .video iframe {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Chruch Timing */
+    .prayer-time {
+        flex-direction: column;
+        text-align: center;
+    }
+}

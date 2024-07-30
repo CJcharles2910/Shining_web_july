@@ -1,0 +1,146 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* about us */
+
+/* h1{
+    background-color: rgb(8, 158, 239);
+    height: 50px;
+    color: white;
+    padding-left: 150px;
+    padding-top: 15px;
+} */
+
+/* Pastor img & Content------------- */
+
+/* .row{
+    width: 100%;
+    max-width: 1450px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; 
+    overflow-x: hidden;
+    padding: 4rem 0 1rem ;
+}
+
+.row .imgWrapper{
+    overflow: hidden;
+}
+
+.row .imgWrapper img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+ .row .imgWrapper:hover img{
+    transform: scale(1.25);
+ }
+
+.row .contentWrapper{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px 0 0 0;
+}
+
+.row .contentWrapper p{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 25px;
+} */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgb(8, 158, 239);
+    height: 70px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.imgWrapper, .contentWrapper {
+    flex: 1;
+    padding: 10px;
+}
+
+.imgWrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    text-align: justify;
+}
+ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .row {
+        flex-direction: row;
+    }
+
+    .imgWrapper, .contentWrapper {
+        flex: 1;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .row {
+        flex-direction: row;
+    }
+
+    .imgWrapper, .contentWrapper {
+        flex: 1;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .row {
+        flex-direction: row;
+    }
+
+    .imgWrapper, .contentWrapper {
+        flex: 1;
+    }
+}
