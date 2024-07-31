@@ -89,16 +89,22 @@ h2 {
 .div2,
 .div3 {
     width: 21em;
-    height: 30em;
+    height: 33em;
     background-color: #00a2e8;
     box-shadow: 5px 5px 25px #0000005f;
     padding: 10px 30px;
     border-radius: 10px;
 }
 
+.div3{
+    padding: 15px 65px;
+}
+
 .div1 a {
     color: white;
 }
+
+
 
 .div1 h3 {
     font-size: 30px;
@@ -114,18 +120,18 @@ h2 {
     font-size: 25px;
 }
 
-.div1,.div2,.div3{
+/* .div1,.div2,.div3{
     height: auto;
     width: auto;
-}
+} */
 
 .div2 .heading {
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: underline;
     color: black;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .div3 .heading {

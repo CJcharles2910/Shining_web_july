@@ -46,8 +46,16 @@ h1{
     color: white;
 }
 .div3{
-    height: 20em;
+    height: 25em;
 }
+
+.div1{
+    height: 25em;
+}
+.div2{
+    height: 25em;
+}
+
 .div3 a{
     color: white;
 }

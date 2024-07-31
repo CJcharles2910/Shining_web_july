@@ -40,8 +40,8 @@ error_reporting(0);
         <div class="div1">
             <p style="text-decoration: underline;font-weight: bolder;padding-bottom: 10px;">Contact Address</p>
             <p>6A First floor, Tami, West,<br> Mullai Nagar Main Rd,<br> TNHB Colony, 
-                Tambaram,<br> Chennai - 600045,<br> Tamil Nadu,<br> India
-                <br><br>
+                Tambaram,<br> Chennai - 600045,<br> Tamil Nadu, India
+                
                 <p>Contact Number: <br><a href="tel:+919500011109">+91-95000 11109</a></p>
                 <p>Alternate Number: <br><a href="tel:+9198408 18373">+91-98408 18373</a></p>
             </p>

@@ -38,8 +38,10 @@ error_reporting(0);
                 </div>
                 <div class="footer-col">
                     <h4>Contact</h4>
-                    <p>6A First floor, Tami, West, Mullai Nagar Main Rd, TNHB Colony, Tambaram, Chennai, Tamil Nadu
-                        600045.<br>Phone number: +91-9500011109</p>
+                    <p>6A First floor, Tami, West, Mullai Nagar Main Rd,</p>
+                     <p>TNHB Colony, Tambaram, Chennai, Tamil Nadu
+                        600045.</p>
+                        <p>contact: +91-9500011109</p>
                 </div>
                 <div class="footer-col">
                     <h4>Follow us</h4>

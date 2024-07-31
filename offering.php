@@ -71,7 +71,7 @@ error_reporting(0);
                 <strong>Name:</strong> Jadesh Daniel<br>
                 <strong>Bank:</strong> ICICI<br>
                 <strong>Acc No:</strong> 007701002902 (Savings a/c)<br>
-                <strong>Branch:</strong> Pammal, Chennai<br>
+                <strong>Branch:</strong> Pammal,Chennai<br>
                 <strong>IFSC:</strong> ICIC0002510 (RTGS & NEFT)<br>
                 <strong>MICR:</strong> 600229100
             </p>

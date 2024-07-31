@@ -100,7 +100,11 @@ nav a {
     display: flex;
     align-items: center;
     color: black;
+    
 }
+
+
+
 
 /* nav li:first-child {
     margin-right: auto;
@@ -110,6 +114,7 @@ nav li:hover {
     background-color: rgb(65, 193, 236);
     border-radius: 30px;
 }
+
 
 .sidebar {
     position: fixed;
