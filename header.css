@@ -103,9 +103,6 @@ nav a {
     
 }
 
-
-
-
 /* nav li:first-child {
     margin-right: auto;
 } */
@@ -115,6 +112,10 @@ nav li:hover {
     border-radius: 30px;
 }
 
+.activeLink{
+    background-color: rgb(65, 193, 236);
+    border-radius: 30px;
+}
 
 .sidebar {
     position: fixed;
