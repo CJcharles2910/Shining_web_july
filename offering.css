@@ -66,7 +66,7 @@ h2 {
 }
 
 /* Payment */
-.container {
+.payment-container {
     height: 700px;
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@ h2 {
     margin-bottom: 70px;
 }
 
-.container p {
+.payment-container p {
     margin: 10px 0;
     font-size: 18px;
     line-height: 23px;
@@ -103,8 +103,6 @@ h2 {
 .div1 a {
     color: white;
 }
-
-
 
 .div1 h3 {
     font-size: 30px;
@@ -155,7 +153,7 @@ h2 {
 @media(max-width:1230px) {
 
     /* 3 boxes */
-    .container {
+    .payment-container {
         height: 100%;
         flex-direction: column;
     }

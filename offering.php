@@ -19,7 +19,7 @@ error_reporting(0);
        <?php include_once("includes/header.php");?>
     </div>
     <!-- Title -->
-    <h1>Offering Page</h1><br><br>
+    <h1>Offering</h1><br><br>
 
     <!-- Img-Content -->
     <div class="offering-container">
@@ -42,7 +42,7 @@ error_reporting(0);
 
     <!-- Payment -->
 
-    <div class="container">
+    <div class="payment-container">
         <!-- UPI & Gpay -->
         <div class="div1">
             <h3>UPI & GooglePay</h3>

@@ -35,7 +35,7 @@ error_reporting(0);
 
     <!-- 3 Boxes -->
 
-    <div class="container">
+    <div class="contact-container">
         <!-- Contact Address -->
         <div class="div1">
             <p style="text-decoration: underline;font-weight: bolder;padding-bottom: 10px;">Contact Address</p>

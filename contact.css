@@ -24,7 +24,7 @@ h1{
 }
 
 /* 3 Boxes */
-.container{
+.contact-container{
     height: 500px;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ h1{
     color: white;
 }
 
-p{
+.contact-container p{
     margin: 10px 0;
     font-size: 18px;
     line-height: 23px;
@@ -148,7 +148,7 @@ p{
 
 @media(max-width:1230px){
     /* 3 boxes */
-    .container{
+    .contact-container{
         height: 100%;
         flex-direction: column;
     }
@@ -164,7 +164,7 @@ p{
         height: 25em;
         margin-bottom: 45px;
     }
-    p{
+    .contact-container p{
         font-size: 12px;
         line-height: 20px;
         color: white;

@@ -20,7 +20,7 @@ error_reporting(0);
     <!-- header end -->
 
     <!-- Title -->
-    <h1>Picture Gallery</h1><br><br>
+    <h1>Gallery</h1><br><br>
     
     <!-- Images -->
     <div class="container">

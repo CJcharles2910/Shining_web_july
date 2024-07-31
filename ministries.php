@@ -25,7 +25,7 @@ error_reporting(0);
 
     <!-- Images -->
     
-    <div class="container">
+    <div class="ministry-container">
         <div class="item">
             <img src="./images/about_img1.jpeg" alt="Inspire">
             <h2>Image - 1</h2>

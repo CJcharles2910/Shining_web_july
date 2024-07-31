@@ -33,35 +33,12 @@ error_reporting(0);
 
     <!-- slideshow -->
 
-    <div class="slider">
-        <div class="list">
-            <div class="item">
-                <img src="./images/home-img-1.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="./images/home-img-2.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="./images/home-img-3.jpg" alt="">
-            </div>
-        </div>
-        <div class="buttons">
-            <button id="prev"><</button>
-            <button id="next">></button>
-        </div>
-        <ul class="dots">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
+    <?php include_once("slideshow.php");?>
 
     <!-- Text-Content -->
 
     <div class="text-content">
-    To share God's Love ,<br> Grace and truth so that people come to know the love,<br> and serve the Lord Jesus Christ. <br>To Live by Faith, <br>to be Known by Love,<br> and to be a Voice of Hope.
+    To share God's Love ,<br> Grace and truth so that people come to know the love, and serve the Lord Jesus Christ. <br>To Live by Faith, to be Known by Love, and to be a Voice of Hope.
     </div>
 
     <!-- pastor img -->
@@ -131,8 +108,6 @@ error_reporting(0);
     <!-- footer -->
     <?php include_once('includes/footer.php');?>
     <!--//footer -->
-
-    <script src="header.js"></script>
 
 </body>
 
