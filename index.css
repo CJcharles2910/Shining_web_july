@@ -105,7 +105,7 @@ body {
 
 /* iframe */
 .i-container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -130,7 +130,7 @@ body {
 
 .video-gallery .video {
     margin: 10px;
-    max-width: 300px;
+    max-width:400px;
     flex: 1 1 300px;
     position: relative;
 }

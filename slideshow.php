@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+/* To avoid over lapping */
+nav {
+            width: 100%;
+            height: 90px;
+            background-color:white;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            top:0;
+            /* left: 0; */
+            z-index: 1;
+        }
 .slider{
     width: 1300px;
     max-width: 100vw;
@@ -12,6 +24,7 @@
     margin: auto;
     position: relative;
     overflow: hidden;
+    
 }
 .slider .list{
     position: absolute;
@@ -97,8 +110,7 @@
             <li class="active"></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
+            
         </ul>
     </div>
 

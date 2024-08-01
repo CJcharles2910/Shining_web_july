@@ -35,7 +35,7 @@ h1{
     margin-bottom: 50px;
 }
 .div1, .div2, .div3{
-    width: auto ;
+    /* width: auto ; */
     height: auto;
     background-color: rgb(56, 54, 54);
     box-shadow: 5px 5px 25px #0000005f;
@@ -45,15 +45,17 @@ h1{
 .div1 a{
     color: white;
 }
-.div3{
-    height: 25em;
-}
 
 .div1{
     height: 25em;
+    width: 20em;
 }
 .div2{
     height: 25em;
+}
+.div3{
+    height: 25em;
+    width: 20em;
 }
 
 .div3 a{
@@ -153,17 +155,17 @@ h1{
         flex-direction: column;
     }
     .div1, .div2, .div3{
-        max-width: 80%;
-        padding: 50px 30px;
-        height: 35em;
+        max-width: 100%;
+        padding:50px 30px;
+        height:31em;
     }
-    .div1{
+    /* .div1{
         height: 25em;
     }
     .div3{
         height: 25em;
         margin-bottom: 45px;
-    }
+    } */
     .contact-container p{
         font-size: 12px;
         line-height: 20px;

@@ -27,8 +27,14 @@ h2 {
     border-radius: 8px;
 }
 .offering-header {
-    text-align: left;
-    margin-bottom: 20px;
+    /* margin-right:400px; */
+    font-size: 20px;
+    text-align:center;
+    margin-bottom:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .offering-content {
     display: flex;
@@ -71,7 +77,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5em;
+    gap: 4em;
     flex-grow: 1;
     padding: 0 40px;
     margin-top: 60px;
@@ -88,7 +94,7 @@ h2 {
 .div1,
 .div2,
 .div3 {
-    width: 21em;
+    width: 23em;
     height: 33em;
     background-color: #00a2e8;
     box-shadow: 5px 5px 25px #0000005f;
@@ -97,7 +103,7 @@ h2 {
 }
 
 .div3{
-    padding: 15px 65px;
+    padding: 15px 57px;
 }
 
 .div1 a {
@@ -105,9 +111,9 @@ h2 {
 }
 
 .div1 h3 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     text-decoration: underline;
 }
 
@@ -125,20 +131,21 @@ h2 {
 
 .div2 .heading {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: underline;
     color: black;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
 }
 
 .div3 .heading {
+    margin-top: 0%;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: underline;
     color: black;
-    text-align: center;
-    margin-bottom: 30px;
+    text-align:center;
+    margin-bottom:100px;
 }
 
 .div3 a {
@@ -147,6 +154,7 @@ h2 {
 
 .div3 img {
     margin: auto;
+    
 }
 
 /* Media Queries */
@@ -158,29 +166,46 @@ h2 {
         flex-direction: column;
     }
 
-    /* .div1 {
-        max-width: 90%;
+     .div1 {
+        max-width: 130%;
         padding: 50px 30px;
-        height: 30em;
+        height: 33em;
     }
 
     .div2 {
-        max-width: 90%;
+        max-width: 130%;
         padding: 50px 30px;
         height: 40em;
     }
 
     .div3 {
-        max-width: 90%;
+        max-width: 130%;
         padding: 50px 30px;
-        height: 20em;
+        height: 33em;
     }
 
     .div3 img {
+        max-width: 130%;
+        padding: 50px 30px;
         margin-left: 5px;
     }
+    
 
-    p {
+.offering-content {
+        flex-direction: row;
+        text-align: left;
+    }
+    .offering-content img {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .text-content {
+        max-width: 60%;
+        text-align: left;
+    }
+
+
+    /*p {
         font-size: 12px;
         line-height: 20px;
         color: white;
@@ -218,6 +243,9 @@ h2 {
         max-width: 60%;
         text-align: left;
     }
+
+    
+
 }
 /* @media (max-width: 600px) {
     .offering-content {

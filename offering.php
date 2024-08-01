@@ -24,7 +24,8 @@ error_reporting(0);
     <!-- Img-Content -->
     <div class="offering-container">
         <div class="offering-header">
-            <h2>Greetings Brothers and Sisters,</h2>
+            <p>Greetings Brothers and Sisters</p>
+            <!-- <h2>Greetings Brothers and Sisters,</h2> -->
         </div>
         <div class="offering-content">
             <img src="./images/offering.jfif" alt="Image">
@@ -80,7 +81,7 @@ error_reporting(0);
         <div class="div3">
             <p class="heading">QR Scanner</p>
             <p>
-                <img src="./images/QR.webp" alt="UPI" width="200">
+                <img src="./images/QR.webp" alt="UPI" width="250" >
             </p>
         </div>
     </div>

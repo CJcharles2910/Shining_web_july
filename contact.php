@@ -40,9 +40,8 @@ error_reporting(0);
         <div class="div1">
             <p style="text-decoration: underline;font-weight: bolder;padding-bottom: 10px;">Contact Address</p>
             <p>6A First floor, Tami, West,<br> Mullai Nagar Main Rd,<br> TNHB Colony, 
-                Tambaram,<br> Chennai - 600045,<br> Tamil Nadu, India
-                
-                <p>Contact Number: <br><a href="tel:+919500011109">+91-95000 11109</a></p>
+                Tambaram,<br> Chennai - 600045,<br> Tamil Nadu, India <br><br>
+                <p>Contact Number: <br><a href="tel:+919500011109">+91-95000 11109</a></p><br><br>
                 <p>Alternate Number: <br><a href="tel:+9198408 18373">+91-98408 18373</a></p>
             </p>
         </div>
@@ -71,10 +70,10 @@ error_reporting(0);
         <div class="div3">
             <p style="text-decoration: underline;font-weight: bolder;padding-bottom: 10px;">Social Media</p>
 
-            <p>Email: <a href="mailto:shiningstarministries2004@gmail.com">shiningstarministries</a></p>
-            <p>Instagram: <a href="https://www.instagram.com/shiningstarministriestambaram/" target="_blank">shiningstarministries</a></p>
+            <p>Email: <a href="mailto:shiningstarministries2004@gmail.com">shiningstarministries</a></p><br>
+            <p>Instagram: <a href="https://www.instagram.com/shiningstarministriestambaram/" target="_blank">shiningstarministries</a></p><br>
 
-            <p>YouTube: <a href="https://www.youtube.com/@shiningstarministriestamba6990" target="_blank">shiningstarministries</a></p>
+            <p>YouTube: <a href="https://www.youtube.com/@shiningstarministriestamba6990" target="_blank">shiningstarministries</a></p><br>
 
             <p>FaceBook: <a href="https://www.facebook.com/ShiningStarMinistriesTambaram" target="_blank">shiningstarministries</a></p>
 
