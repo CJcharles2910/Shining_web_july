@@ -66,7 +66,7 @@ error_reporting(0);
 
     <div class="container-CT">
         <div class="content">
-            <h1>Church Timing</h1>
+            <h1>CHURCH TIMING</h1>
             <div class="prayer-times">
                 <img src="./images/chruch_Time.png" alt="">
             </div>

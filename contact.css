@@ -52,6 +52,7 @@ h1{
 }
 .div2{
     height: 25em;
+    width: 500px;
 }
 .div3{
     height: 25em;
@@ -159,13 +160,13 @@ h1{
         padding:50px 30px;
         height:31em;
     }
-    /* .div1{
+    .div1{
         height: 25em;
     }
     .div3{
         height: 25em;
         margin-bottom: 45px;
-    } */
+    }
     .contact-container p{
         font-size: 12px;
         line-height: 20px;

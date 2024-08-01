@@ -41,14 +41,14 @@ error_reporting(0);
                     <p>6A First floor, Tami, West, Mullai Nagar Main Rd,</p>
                      <p>TNHB Colony, Tambaram, Chennai, Tamil Nadu
                         600045.</p>
-                        <p>contact: +91-9500011109</p>
+                        <p>Contact: <a href="tel:+919500011109" style="color: white; text-decoration: none">+91-95000 11109</a></p>
                 </div>
                 <div class="footer-col">
                     <h4>Follow us</h4>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/@shiningstarministriestamba6990" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/shiningstarministriestambaram/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ShiningStarMinistriesTambaram" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
             </div>
