@@ -46,7 +46,7 @@ error_reporting(0);
     <div class="payment-container">
         <!-- UPI & Gpay -->
         <div class="div1">
-            <h3>UPI & GooglePay</h3>
+            <h3 class="heading">UPI & GooglePay</h3>
             <p>
                 <span><img src="./images/upi.jpg" alt="UPI" width="100"> <br><br> Jadesh Daniel@icici</span>
                 <br>

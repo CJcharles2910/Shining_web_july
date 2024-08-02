@@ -38,7 +38,7 @@ error_reporting(0);
     <div class="contact-container">
         <!-- Contact Address -->
         <div class="div1">
-            <p style="text-decoration: underline;font-weight: bolder;padding-bottom: 10px;">Contact Address</p>
+            <p style="text-decoration: underline;font-weight: bolder;padding-bottom: 10px; text-align: center;font-size: 25px">Contact Address</p>
             <p>6A First floor, Tami, West,<br> Mullai Nagar Main Rd,<br> TNHB Colony, 
                 Tambaram,<br> Chennai - 600045,<br> Tamil Nadu, India <br><br>
                 <p>Contact Number: <br><a href="tel:+919500011109">+91-95000 11109</a></p>
@@ -47,7 +47,7 @@ error_reporting(0);
         </div>
         <!-- Bank Details -->
         <div class="div2">
-            <p style="font-weight: bolder;padding-bottom: 10px;">If you wish to donate to the Church/Ministries, please use the below Bank details:</p>
+            <p style="font-weight: bolder;padding-bottom: 10px;font-size: 20px">If you wish to donate to the Church/Ministries, please use the below Bank details:</p>
             <p>
                 <strong>Name:</strong> Shining Star Ministries<br>
                 <strong>Bank:</strong> ICICI<br>
@@ -68,7 +68,7 @@ error_reporting(0);
         </div>
         <!-- Email -->
         <div class="div3">
-            <p style="text-decoration: underline;font-weight: bolder;padding-bottom: 10px;">Social Media</p>
+            <p style="text-decoration: underline;font-weight: bolder;padding-bottom: 10px;text-align: center;font-size: 25px">Social Media</p>
 
             <p>Email: <a href="mailto:shiningstarministries2004@gmail.com">shiningstarministries</a></p><br>
             <p>Instagram: <a href="https://www.instagram.com/shiningstarministriestambaram/" target="_blank">shiningstarministries</a></p><br>

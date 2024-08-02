@@ -30,7 +30,7 @@ error_reporting(0);
                     <ul>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="aboutus.php">About us</a></li>
-                        <li><a href="Misisters.php">Our Ministers</a></li>
+                        <li><a href="ministries.php">Our Ministries</a></li>
                         <li><a href="gallery.php">Gallery</a></li>
                         <li><a href="offering.php">Offering</a></li>
                         <li><a href="contact.php">Contact us</a></li>
@@ -41,7 +41,7 @@ error_reporting(0);
                     <p>6A First floor, Tami, West, Mullai Nagar Main Rd,</p>
                      <p>TNHB Colony, Tambaram, Chennai, Tamil Nadu
                         600045.</p>
-                        <p>Contact: <a href="tel:+919500011109" style="color: white; text-decoration: none">+91-95000 11109</a></p>
+                        <p>Contact: <a href="tel:+919500011109" style="color: white; text-decoration: none">+91 95000 11109</a></p>
                 </div>
                 <div class="footer-col">
                     <h4>Follow us</h4>

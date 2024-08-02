@@ -47,7 +47,7 @@ error_reporting(0);
         <div class="welcome-section">
             <img src="./images/pastor.jpeg" alt="Pastor Image">
             <div>
-                <h1>Welcome To Shining Star Ministries</h1>
+                <h1>Welcome to Shining Star Ministries</h1>
                 <p>Dear Brothers and Sisters in Christ, we greet you in the precious name of our Lord and Saviour Jesus
                     Christ. We feel delighted to meet you through this website. We wish to make the site a blessing to
                     everyone who visits it. The site will have messages of our weekly Sunday Morning Service and of

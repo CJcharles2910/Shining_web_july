@@ -97,8 +97,8 @@
     <div id="popup" class="popup">
         <span class="popup-close" id="popup-close">&times;</span>
         <div class="popup-content">
-            <img class="popup-image" src="./images/promise-1.jpg" alt="Popup Image 1">
-            <img class="popup-image" src="./images/promise-2.jpg" alt="Popup Image 2">
+            <img class="popup-image" src="./images/promise-1.jfif" alt="Popup Image 1">
+            <img class="popup-image" src="./images/promise-2.jfif" alt="Popup Image 2">
         </div>
     </div>
 

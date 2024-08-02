@@ -27,7 +27,7 @@
                 </svg></a></li>
         <li><a href="index.php">Home</a></li>
         <li><a href="aboutus.php">About us</a></li>
-        <li><a href="ministries.php">Our Ministers</a></li>
+        <li><a href="ministries.php">Our Ministries</a></li>
         <li><a href="gallery.php">Gallery</a></li>
         <li><a href="offering.php">Offering</a></li>
         <li><a href="contact.php">Contact us</a></li>
@@ -38,7 +38,7 @@
 
         <li class="hideOnMobile"><a href="aboutus.php" <?php if($currentPage === "aboutus.php"){?> class="activeLink" <?php } ?>>About us</a></li>
 
-        <li class="hideOnMobile"><a href="ministries.php" <?php if($currentPage === "ministries.php"){?> class="activeLink" <?php } ?>>Our Ministers</a></li>
+        <li class="hideOnMobile"><a href="ministries.php" <?php if($currentPage === "ministries.php"){?> class="activeLink" <?php } ?>>Our Ministries</a></li>
 
         <li class="hideOnMobile"><a href="gallery.php" <?php if($currentPage === "gallery.php"){?> class="activeLink" <?php } ?>>Gallery</a></li>
 
